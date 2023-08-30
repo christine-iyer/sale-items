@@ -8,7 +8,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    
           "id": "RF-12",
@@ -19,7 +19,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-3",
@@ -30,7 +30,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-4",
@@ -41,7 +41,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-5",
@@ -52,7 +52,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-6",
@@ -63,7 +63,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-7",
@@ -74,7 +74,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-8",
@@ -85,7 +85,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-9",
@@ -96,7 +96,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-10",
@@ -107,7 +107,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-11",
@@ -118,7 +118,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "RF-12",
@@ -129,7 +129,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "GM-1",
@@ -140,7 +140,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "GM-2",
@@ -151,7 +151,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "GM-3",
@@ -162,7 +162,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "GM-4",
@@ -173,7 +173,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "GM-5",
@@ -184,7 +184,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {
           "id": "GM-6",
@@ -195,7 +195,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "CY-1",
           "breed": "Candies",
@@ -205,7 +205,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "CY-2",
           "breed": "Candies",
@@ -215,7 +215,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "CY-3",
           "breed": "Candies",
@@ -225,7 +225,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "CY-4",
           "breed": "Candies",
@@ -235,7 +235,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "CY-5",
           "breed": "Candies",
@@ -245,7 +245,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TBO-1",
           "breed": "Tinctures-Base Oil",
@@ -255,7 +255,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TBO-2",
           "breed": "Tinctures-Base Oil",
@@ -265,7 +265,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TBO-3",
           "breed": "Tinctures-Base Oil",
@@ -275,7 +275,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TBO-4",
           "breed": "Tinctures-Base Oil",
@@ -285,7 +285,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TBO-5",
           "breed": "Tinctures-Base Oil",
@@ -295,7 +295,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-1",
           "breed": "Topicals",
@@ -305,7 +305,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-2",
           "breed": "Topicals",
@@ -315,7 +315,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-3",
           "breed": "Topicals",
@@ -325,7 +325,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-4",
           "breed": "Topicals",
@@ -335,7 +335,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-5",
           "breed": "Topicals",
@@ -345,7 +345,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-6",
           "breed": "Topicals",
@@ -355,7 +355,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-7",
           "breed": "Topicals",
@@ -365,7 +365,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-8",
           "breed": "Topicals",
@@ -375,7 +375,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-9",
           "breed": "Topicals",
@@ -385,7 +385,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-10",
           "breed": "Topicals",
@@ -395,7 +395,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "TOP-11",
           "breed": "Topicals",
@@ -405,7 +405,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
          "recipe":  false, 
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "MM-1",
           "breed": "Marshmallows",
@@ -415,7 +415,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "MM-2",
           "breed": "Marshmallows",
@@ -425,7 +425,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      },
      {    "id": "MM-3",
           "breed": "Marshmallows",
@@ -435,7 +435,7 @@ const saleItems = [
           "unitCost": "-",
           "cost": "-",
           "recipe": true,
-          "image": ""
+          "image": "https://images.leafly.com/flower-images/acapulco.jpg"
      }
 ]
 module.exports = saleItems

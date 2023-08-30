@@ -14,14 +14,14 @@ const Details = () => {
     );
   }
 
-  const pet = results.data.pets[0];
+  const item = results.data.item[0];
 
   return (
     <div className="details">
       <div>
-        <h1>{pet.name}</h1>
-        <h2>{`${pet.animal} — ${pet.breed} `}</h2>
-        <button>Adopt {pet.id}</button>
+        <h1>{item.location}</h1>
+        <h2>{`${item.animal} — ${item.breed} `}</h2>
+        <button>Adopt {item.id}</button>
        
       </div>
     </div>

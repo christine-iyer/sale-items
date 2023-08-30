@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import Results from "./Results";
 import useBreedList from "./useBreedList";
 import fetchSearch from "./fetchSearch";
-const ANIMALS = ["Raw Flower", "Gummies", "Candies", "Tinctures-Base Oil", "Marshmallows", ""];
+const ANIMALS = ["Raw Flower", "Gummies", "Candies", "Tinctures-Base Oil", "Marshmallows"];
 
 const SearchParams = () => {
   const [requestParams, setRequestParams] = useState({
@@ -12,11 +12,12 @@ const SearchParams = () => {
     breed: "",
   });
   const [animal, setAnimal] = useState("");
+  const [breed, setBreed] = useState("");
   const [breeds] = useBreedList(animal);
 
   const results = useQuery(["search", requestParams], fetchSearch);
-  const pets = results?.data?.items ?? [];
-  console.log(pets)
+  const items = results?.data?.items ?? [];
+
 
   return (
     <div className="search-params">
@@ -60,7 +61,17 @@ const SearchParams = () => {
 
         <label htmlFor="breed">
           Breed
-          <select disabled={!breeds.length} id="breed" name="breed">
+          <select  id="breed" 
+                   name="breed"
+                   onChange={(e) => {
+                    setBreed(e.target.value);
+                  }}
+                  onBlur={(e) => {
+                    setBreed(e.target.value);
+                  }}
+                   
+                   
+                   >
             <option />
             {breeds.map((breed) => (
               <option key={breed} value={breed}>
@@ -72,7 +83,7 @@ const SearchParams = () => {
 
         <button>Submit</button>
       </form>
-      <Results pets={pets} />
+      <Results items={items} />
     </div>
   );
 };
