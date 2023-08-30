@@ -440,62 +440,62 @@ const hardcodedData = [
 }
 
 ];
-function get(req, res, next) {
-  const options = {
-    method: 'GET',
-    url: 'https://yh-finance.p.rapidapi.com/market/v2/get-quotes',
-    params: { region: 'US', symbols: 'GOOGL,TSLA,AMZN,BA,COIN,AAPL,CVS,GS,MS,NVDA,PYPL,PFE,CRM,SBUX,DIS,VTI,LI' },
-    headers: {'X-RapidAPI-Key': '5e4d0eeb5bmsh1f0574004d6dfb6p160e9fjsnd9a3ae03ad63', 'X-RapidAPI-Host': 'yh-finance.p.rapidapi.com' }
-  };
-  axios.request(options).then(
-    response => {
-      let results = response.data.quoteResponse.result
-      let holdings = []
-      for (let i = 0; i < results.length; i++) {
-        let shareInfo = [
-          results[i].symbol,
-          results[i].longName,
-          results[i].fullExchangeName,
-          results[i].regularMarketPrice
-        ]
-        holdings.push(shareInfo)
-      }
-      let mergedData = hardcodedData
-        .map((item, i) => Object.assign({}, item, holdings[i]))
-        .map(({
-          0: symbol,
-          1: longName,
-          2: fullExchangeName,
-          3: regularMarketPrice,
-          purchasePrice: purchasePrice,
-          shares: shares,
-          principalDate: principalDate }) => ({
-            symbol,
-            longName,
-            fullExchangeName,
-            regularMarketPrice,
-            purchasePrice,
-            shares,
-            principalDate
-          }))
-      console.log("This is merged data");
-      console.log(mergedData);
-      return res.json(mergedData)
-      next()
-    }
-  )
-    .catch(function (error) {
-      console.error(error);
-    });
-} 
+// function get(req, res, next) {
+//   const options = {
+//     method: 'GET',
+//     url: 'https://yh-finance.p.rapidapi.com/market/v2/get-quotes',
+//     params: { region: 'US', symbols: 'GOOGL,TSLA,AMZN,BA,COIN,AAPL,CVS,GS,MS,NVDA,PYPL,PFE,CRM,SBUX,DIS,VTI,LI' },
+//     headers: {'X-RapidAPI-Key': '5e4d0eeb5bmsh1f0574004d6dfb6p160e9fjsnd9a3ae03ad63', 'X-RapidAPI-Host': 'yh-finance.p.rapidapi.com' }
+//   };
+//   axios.request(options).then(
+//     response => {
+//       let results = response.data.quoteResponse.result
+//       let holdings = []
+//       for (let i = 0; i < results.length; i++) {
+//         let shareInfo = [
+//           results[i].symbol,
+//           results[i].longName,
+//           results[i].fullExchangeName,
+//           results[i].regularMarketPrice
+//         ]
+//         holdings.push(shareInfo)
+//       }
+//       let mergedData = hardcodedData
+//         .map((item, i) => Object.assign({}, item, holdings[i]))
+//         .map(({
+//           0: symbol,
+//           1: longName,
+//           2: fullExchangeName,
+//           3: regularMarketPrice,
+//           purchasePrice: purchasePrice,
+//           shares: shares,
+//           principalDate: principalDate }) => ({
+//             symbol,
+//             longName,
+//             fullExchangeName,
+//             regularMarketPrice,
+//             purchasePrice,
+//             shares,
+//             principalDate
+//           }))
+//       console.log("This is merged data");
+//       console.log(mergedData);
+//       return res.json(mergedData)
+//       next()
+//     }
+//   )
+//     .catch(function (error) {
+//       console.error(error);
+//     });
+// } 
 
 const assetIndex = (req, res) => {
-  res.json(res.locals.data.mergedData
+  res.json(res.locals.hardcodedData
     )
 
 }
 module.exports = {
-  get,
+
   assetIndex
 };
 

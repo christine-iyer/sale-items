@@ -4,5 +4,5 @@ const portfolioController = require('./dataController')
 const portfolioIndex = require('./viewController')
 
 
-router.get('/', portfolioController.get, portfolioIndex)
+router.get('/item', portfolioController.assetIndex, portfolioIndex)
 module.exports = router 
