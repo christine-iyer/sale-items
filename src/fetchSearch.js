@@ -5,7 +5,7 @@ async function fetchBreedList({ queryKey }) {
      if (!animal) return [];
    
      const res = await fetch(
-       `http://localhost:3008/api/item/breeds?animal=${animal}`
+       `http://localhost:3008/api/item/${animal}`
      );
    
      if (!res.ok) {
