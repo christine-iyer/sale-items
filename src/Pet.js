@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Pet = (props) => {
-  const { cost, animal, breed, location, id } = props;
+  const { cost, animal, breed, location, id, recipe } = props;
 
   // let hero = "http://pets-recipe.dev-apis.com/pets/none.jpg";
   // if (recipe.length) {
@@ -15,7 +15,7 @@ const Pet = (props) => {
       </div>
       <div className="info">
         <h1>{cost}</h1>
-        <h2>{`${animal} — ${breed} — ${location}`}</h2>
+        <h2>{`${animal} — ${breed} — ${location}— ${recipe}`}</h2>
       </div>
     </Link>
   );

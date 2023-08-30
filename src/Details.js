@@ -20,9 +20,9 @@ const Details = () => {
     <div className="details">
       <div>
         <h1>{pet.name}</h1>
-        <h2>{`${pet.animal} — ${pet.breed} — ${pet.city}, ${pet.state}`}</h2>
-        <button>Adopt {pet.name}</button>
-        <p>{pet.description}</p>
+        <h2>{`${pet.animal} — ${pet.breed} `}</h2>
+        <button>Adopt {pet.id}</button>
+       
       </div>
     </div>
   );
