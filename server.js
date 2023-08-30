@@ -1,4 +1,4 @@
-// const saleItem = require('./config/seed')
+const saleItem = require('./config/seed')
 // const express = require('express')
 // const SaleItem =require('./models/saleitemSchema')
 
@@ -35,7 +35,7 @@ app.set('view engine', 'jsx')
 app.engine('jsx', require('jsx-view-engine').createEngine())
 app.use('/api/item', require('./controllers/routeController'))
 app.get('/api/item', (req, res) => {
-  res.send('<h1>Hi<h1>')
+  res.send(saleItem)
 })
 
 app.listen(3008, function () {
